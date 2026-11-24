@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — F3nix Browser: Video &amp; Subs</title>
+  <style>
+    :root {
+      --bg: #0a0f15;
+      --card: #121923;
+      --border: #223044;
+      --text: #e6edf5;
+      --muted: #9aa9bc;
+      --accent: #ff5e1a;
+      --teal: #14b8a6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 24px 16px 64px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      color: #fff;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 94, 26, 0.16);
+      color: var(--accent);
+      border: 1px solid rgba(255, 94, 26, 0.35);
+      border-radius: 999px;
+      padding: 4px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 10px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.18rem;
+      color: var(--accent);
+    }
+    p, li {
+      color: var(--text);
+      font-size: 0.97rem;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 0;
+    }
+    a {
+      color: var(--teal);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .note {
+      border-left: 3px solid var(--teal);
+      padding-left: 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">FenixGames · Official Privacy Policy</span>
+      <h1>F3nix Browser: Video &amp; Subs</h1>
+      <p class="meta">
+        Package ID: <code>com.f3nix.browser</code> &nbsp;·&nbsp;
+        Effective Date: November 24, 2026 &nbsp;·&nbsp;
+        Developer: FenixGames
+      </p>
+    </header>
+
+    <section>
+      <h2>1. Overview &amp; Local-First Design</h2>
+      <p>
+        <strong>F3nix Browser: Video &amp; Subs</strong> ("the App") is developed by <strong>FenixGames</strong>.
+        We respect your privacy. The App does <strong>not</strong> require account registration, does
+        <strong>not</strong> operate proprietary tracking servers, and stores your browsing history, bookmarks,
+        tabs, downloaded media files, and subtitle projects <strong>locally on your device</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Data Processed Locally on Your Device</h2>
+      <ul>
+        <li><strong>Web browsing data:</strong> Visited URLs, cookies, cache, and bookmarks are managed locally by Android WebView. You can clear all browsing data at any time from <em>Settings → Clear browsing data</em>, or use Incognito tabs.</li>
+        <li><strong>Media &amp; subtitle processing:</strong> Video playback, subtitle translation (via Google ML Kit on-device models), and subtitle hardsub burning (via AndroidX Media3) are performed locally on your phone. Your videos and subtitle files are never uploaded to FenixGames servers.</li>
+        <li><strong>Gallery exports:</strong> When enabled, exported files are saved to your device's standard <code>Movies/F3nixBrowser</code> or <code>Music/F3nixBrowser</code> folder using Android Scoped Storage (<code>MediaStore</code>).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Advertising (Google AdMob) &amp; Consent (Google UMP)</h2>
+      <p>
+        To keep the App free, we display advertisements provided by <strong>Google AdMob</strong> exclusively on native
+        app utility screens (Downloads, Subtitle Studio, App Open, and Player exit) and never overlaid on third-party web pages.
+      </p>
+      <p>
+        Google AdMob and its certified ad technology partners may collect and process certain device information to serve,
+        personalize (where consented), cap frequency, prevent fraud, and measure ads, including:
+      </p>
+      <ul>
+        <li>Android Advertising ID (AAID) or other device/app identifiers;</li>
+        <li>Approximate location (inferred from IP address);</li>
+        <li>App interactions, diagnostics, and ad performance metrics.</li>
+      </ul>
+      <p class="note">
+        For users in the European Economic Area (EEA), the United Kingdom, and Switzerland, the App integrates
+        <strong>Google's User Messaging Platform (UMP)</strong> to obtain GDPR consent before loading ads.
+        You can review or withdraw your ad consent at any time via <em>Settings → Ad privacy &amp; consent options</em>,
+        or reset/limit your Advertising ID in your Android device settings.
+      </p>
+      <p>
+        Learn how Google uses data from partner apps:
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">
+          https://policies.google.com/technologies/partner-sites
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>4. On-Device Offline Translation (Google ML Kit)</h2>
+      <p>
+        When you choose to download an offline translation language pack, Google ML Kit downloads the language model
+        directly to your device. Once downloaded, subtitle translation runs completely offline without sending your
+        subtitle text to external servers. You can delete downloaded language packs anytime in <em>Settings</em>.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. App Permissions</h2>
+      <ul>
+        <li><strong>Internet &amp; Network State:</strong> Required for web browsing, downloading authorized media/language packs, and loading ads.</li>
+        <li><strong>Foreground Service (Data Sync) &amp; Notifications:</strong> Used strictly to show active download/processing progress and keep user-initiated tasks running reliably while minimized.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Children's Privacy</h2>
+      <p>
+        This App is not directed to children under the age of 13 (or the minimum digital consent age in your country).
+        We do not knowingly collect personal information from children. If you believe a child has provided personal data
+        through third-party services, please contact us so we can assist.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Responsible Use &amp; Third-Party Websites</h2>
+      <p>
+        When you visit external websites through the built-in browser, those websites are governed by their own privacy
+        policies and terms of service. F3nix Browser is intended strictly for personal, open-license, public-domain,
+        or authorized content.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Data Deletion &amp; Contact</h2>
+      <p>
+        Because FenixGames does not collect or store your personal account data on remote servers, you can delete all
+        local app data instantly via <em>Settings → Clear browsing data</em> or by uninstalling the App from your device.
+      </p>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us at:<br />
+        <strong>Email:</strong> <a href="mailto:mifig75@gmail.com">mifig75@gmail.com</a><br />
+        <strong>Developer:</strong> FenixGames · <a href="https://f3nixhack.github.io/" target="_blank" rel="noopener">https://f3nixhack.github.io/</a>
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2026 FenixGames · F3nix Browser: Video &amp; Subs
+    </footer>
+  </div>
+</body>
+</html>
